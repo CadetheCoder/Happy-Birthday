@@ -34,6 +34,9 @@ body {
     margin: auto; /* Centers the box */
     max-height: 80%;
     border-radius: 3px;
+    max-height: 90vh; /* Limits the height to 90% of the viewport */
+    overflow-y: auto; /* Adds scrolling if the content overflows */
+    box-sizing: border-box;
 }
 
 a {
