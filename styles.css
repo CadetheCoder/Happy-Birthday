@@ -15,6 +15,7 @@ body {
     height: 100vh;
     flex-direction: column;
     font-size: 5vw;
+    color: #454545;
 }
 
 #intro-button {
@@ -27,12 +28,12 @@ body {
 
 #box {
     background-color: white;
-    border: 2px solid black;
+    border: 2px solid #6bb389;
     padding: 30px;
     max-width: 90%; /* Ensures it doesn’t take the full width */
     margin: auto; /* Centers the box */
     max-height: 80%;
-    border-radius: 3px
+    border-radius: 3px;
 }
 
 a {
@@ -50,7 +51,7 @@ a {
 
 #facts-box {
     background-color: white;
-    border: 3px solid black;
+    border: 2px solid #6bb389;;
     padding: 0px;
     display: flex;
     justify-content: space-evenly;
@@ -82,7 +83,8 @@ a {
 }
 
 #fun-facts {
-    font-size: 4vw
+    font-size: 4vw;
+    color: #454545
 }
 
 /* Increase size at 600px */
